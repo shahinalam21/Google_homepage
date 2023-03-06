@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    list-style: none;
+}
+header ul li{
+    padding: 5px 10px;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(124, 91, 91);
+    font-size: 15px;
+}
+header ul li a:hover{
+text-decoration: underline;
+}
+.sign-in {
+    padding: 10 20px;
+    background: rgb(190, 108, 108);
+    padding: 5px 20px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+.sign-in:hover{
+  color: rgb(238, 229, 229);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.google-img img{
+    width: 350px;
+    padding-bottom: 10px;
+}
+.search-bar>input{
+    width: 500px;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.icon {
+    position: relative;
+    top: -43px;
+    padding: 10px 23px;
+    display: flex;
+    justify-content: space-between;
+}
